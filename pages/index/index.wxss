@@ -1,0 +1,89 @@
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 100%;
+}
+.container .img{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 600rpx;
+}
+.container .img image{
+  width: 100%;
+  height: 100%;
+}
+.container .countPrice{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 60rpx;
+  margin-top: 20rpx;
+}
+.container .countPrice .price{
+  margin-left: 20rpx;
+  margin-right: 360rpx;
+}
+.container .countPrice .price .nowPrice{
+  font-size: 36rpx;
+  color: #f00;
+  margin-right: 8rpx;
+}
+.container .countPrice .price .oldPrice{
+  font-size: 28rpx;
+  color: rgb(138,138,138);
+  text-decoration: line-through;
+}
+.container .count{
+  font-size: 28rpx;
+  color: rgb(138,138,138);
+}
+.container .description{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(74,74,74);
+  font-size: 34rpx;
+  margin-top: 40rpx;
+}
+.container .description view{
+  width: 100rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+.container .description .share{
+  color: #ccc;
+}
+.container .description text{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  flex: 1;
+}
+.container .discounts{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40rpx;
+  margin-top: 20rpx;
+}
+.container .discounts text:first-child{
+  width: 80rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  background: #f00;
+  color: #fff;
+  margin-left: 20rpx;
+  margin-right: 30rpx;
+}
+.container .discounts .discount{
+  font-size: 36rpx;
+  color: #ccc;
+}

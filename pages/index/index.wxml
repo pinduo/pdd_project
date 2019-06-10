@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='img'>
+    <image src='../img/1.jpg'></image>
+  </view>
+  <view class='countPrice'>
+    <view class='price'>
+      <text class='nowPrice'>￥29.8</text>
+      <text class='oldPrice'>￥139</text>
+    </view>
+    <view class='count'>
+      <text>已拼单1.6万</text>
+    </view>
+  </view>
+  <view class='description'>
+    <view>123</view>
+    <text>【四季可穿】纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙纱裙半身裙新款长裙中长款裙子网纱裙</text>
+    <view class='share'>分享</view>
+  </view>
+  <view class='discounts'>
+    <text>返现</text>
+    <text class='discount'>店铺内消费满40返2元</text>
+  </view>
+</view>
